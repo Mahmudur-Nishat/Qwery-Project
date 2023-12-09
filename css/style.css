@@ -266,7 +266,7 @@ body {
 .footer_bottom {
   display: flex;
   justify-content: space-between;
-  margin-top: 60px !important;
+  padding-top: 60px !important;
 }
 .footer_bottom .footer_bottom_right {
   display: flex;
