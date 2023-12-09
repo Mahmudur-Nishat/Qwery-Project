@@ -120,7 +120,7 @@ body {
                  Holiday part start here
 ======================================================= */
 #holiday_part {
-  padding: 150px 0 0px;
+  padding: 150px 0 0px !important;
   background: #000;
 }
 #holiday_part .left_right_parent {
@@ -178,7 +178,7 @@ body {
                  Climb part start here
 ======================================================= */
 #climb_part {
-  padding-top: 150px;
+  padding-top: 150px !important;
   /* padding-bottom: 300px; */
   background: #000;
 }
@@ -267,7 +267,7 @@ body {
 .footer_bottom {
   display: flex;
   justify-content: space-between;
-  margin-top: 60px;
+  margin-top: 60px !importantgit;
 }
 .footer_bottom .footer_bottom_right {
   display: flex;
