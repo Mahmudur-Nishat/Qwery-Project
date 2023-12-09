@@ -1,0 +1,457 @@
+/* ====================================================
+                 common css start here
+====================================================*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p,div,span,a,li{
+    margin: 0;
+    padding: 0;
+    
+}
+img{
+    vertical-align: middle;
+}
+.container{
+    width: 1250px;
+    margin: 0 auto;
+    
+    
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ====================================================
+                 common css end here
+====================================================*/
+/* ====================================================
+                 banner part start here
+======================================================= */
+
+#banner_part{
+    background:url(../images/Rectangle\ 1\ 1.png);
+    padding: 25px 0 180px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#banner_part .nav_parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner_part .nav_parent .menu_div ul{
+    display: flex;
+    column-gap: 60px;
+}
+
+#banner_part .nav_parent .menu_div ul li a{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+
+#banner_part .nav_parent .menu_div ul li .active,#banner_part .nav_parent .menu_div ul li a:hover{
+    color:#000;
+}
+
+#banner_part .nav_parent .menu_div ul li .active{
+    color:#000;
+}
+
+#banner_part .text_div{
+    margin-top: 150px;
+}
+#banner_part .text_div h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFC178;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+#banner_part .text_div span{
+    font-size: 88px;
+    color:#fff;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+
+#banner_part .text_div h1{
+    font-size: 80px;
+    color:#fff;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+
+
+
+/* ====================================================
+             banner part end here
+======================================================= */
+
+/* ====================================================
+                 Holiday part start here
+======================================================= */
+#holiday_part{
+    padding: 200px 0 0px;
+    background: #000;
+}
+#holiday_part .left_right_parent{
+    display: flex;
+    column-gap: 20px;
+}
+
+#holiday_part .left_right_parent .right_part .right_part_top_heading{
+    color:#FBD784;
+    font-size:18px ;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-top: 45px;
+    margin-bottom: ;
+}
+
+#holiday_part .left_right_parent .right_part .holiday_heading{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#holiday_part .left_right_parent .right_part .holiday_para{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-bottom: 65px;
+}
+
+#holiday_part .left_right_parent .right_part .holiday_anchor_link{
+    color:#FBD784 ;
+    font-size:18px ;
+    font-weight:700 ;
+    text-transform:uppercase ;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+
+#holiday_part .left_right_parent .right_part .holiday_anchor_link:hover{
+    color:#fff ;
+   
+}
+
+/* ====================================================
+                 Holiday part end here
+======================================================= */
+
+/* ====================================================
+                 Climb part start here
+======================================================= */
+#climb_part{
+    padding-top: 200px;
+    /* padding-bottom: 300px; */
+    background: #000;
+   
+
+}
+.climb_parent{
+    padding:500px 0 30px ;
+    background: url(../images/image\ 2\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+#climb_part .climb_parent .climb_top_heading{
+    font-size:18px ;
+    font-weight:700 ;
+    color:#FBD784 ;
+    letter-spacing:6px ;
+    text-transform: uppercase;
+}
+
+#climb_part .climb_parent .climb_main_heading{
+    font-size: 64px;
+    font-weight:700 ;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+#climb_part .climb_parent .climb_para{
+    font-size: 15px;
+    font-weight:400 ;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 32px;
+
+}
+
+#climb_part .climb_parent .climb_anchor{
+    font-size: 18px;
+    font-weight:700 ;
+    color: #FBD784;
+    text-transform: uppercase;
+    margin-top: 20px;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+
+#climb_part .climb_parent .climb_anchor:hover{
+   
+    color: #fff;
+}
+
+/* ====================================================
+                 Climb part end here
+======================================================= */
+
+/* ====================================================
+                 Culture part start here
+======================================================= */
+.climb{
+    flex-direction: row-reverse;
+}
+.climb_heading{
+    width: 608px;
+    font-size: 60px;
+}
+.climb_right{
+    margin-top: 150px;
+}
+
+/* ====================================================
+                 Culture part end here
+======================================================= */
+
+/* ====================================================
+                 Footer part start here
+======================================================= */
+#footer_part{
+    padding:100px 0 15px ;
+    background: #000;
+    
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+.footer_bottom .footer_bottom_right {
+    display: flex;
+    column-gap: 75px;
+    margin-top: 24px;
+    margin-right: 175px;
+}
+
+.footer_bottom .footer_bottom_right li {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.footer_bottom .footer_bottom_right .last_ul{
+   margin-left: 34px;
+}
+
+#footer_part .footer-top .footer_top_right .first_link{
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-right: 13px;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+#footer_part .footer-top .footer_top_right .first_link:hover{
+    color: #FBD784;
+    transform: translateX(-25%);
+    -webkit-transform: translateX(-25%);
+    -moz-transform: translateX(-25%);
+    -ms-transform: translateX(-25%);
+    -o-transform: translateX(-25%);
+}
+
+#footer_part .footer-top .footer_top_right .second_link{
+    color: #000;
+    padding: 13px 65px;
+    background-color: #FFA343;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid transparent;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+
+#footer_part .footer-top .footer_top_right .second_link:hover{
+    color: #FFA343;
+    background-color: #000;
+    border: 1px solid #FFA343 ;
+    transform: translateY(-25%);
+    -webkit-transform: translateY(-25%);
+    -moz-transform: translateY(-25%);
+    -ms-transform: translateY(-25%);
+    -o-transform: translateY(-25%);
+}
+
+#footer_part .footer_bottom .footer_bottom_left h4{
+color: #FFF;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+width: 392px;
+text-transform: capitalize;
+margin-top: 40px;
+margin-bottom: 25px;
+}
+
+#footer_part .footer_bottom .footer_bottom_left p{
+color: #FFF;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+margin-bottom: 22px;
+}
+
+#footer_part .footer_bottom .footer_bottom_left .social_icon i{
+    width: 40px;
+    height: 40px;
+    background: green;
+    color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    margin-right: 10px;
+    }
+
+#footer_part .footer_bottom .footer_bottom_left .social_icon i{   
+    width: 40px;
+    height: 40px;
+    background: green;
+    color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    margin-right: 10px;
+}
+
+#footer_part .footer_bottom .footer_bottom_left .social_icon i:hover{
+    transform: translateY(-25%);
+    background: #fff;
+    color:green;
+    -webkit-transform: translateY(-25%);
+    -moz-transform: translateY(-25%);
+    -ms-transform: translateY(-25%);
+    -o-transform: translateY(-25%);
+}
+
+#footer_part .footer_bottom .footer_bottom_right ul h4{
+color: #FFD1A0;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+text-transform: capitalize;
+margin-bottom: 10px;
+}
+
+#footer_part .footer_bottom .footer_bottom_right ul li a{
+    color: #FFF;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: all linear 0.2s ;
+    -webkit-transition: all linear 0.2s ;
+    -moz-transition: all linear 0.2s ;
+    -ms-transition: all linear 0.2s ;
+    -o-transition: all linear 0.2s ;
+}
+
+
+#footer_part .footer_bottom .footer_bottom_right ul li a:hover{
+color:#FFA343;
+}
+
+#footer_part .footer_copyright_part p{
+color: #FFF;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; 
+margin-top: 95px;;
+}
+
+/* ====================================================
+                 Footer part end here
+======================================================= */
